@@ -13,7 +13,8 @@ A simple REST API using Firebase Cloud Functions with Express
 
 ---
 **NOTE**
-In order to the run the app , please switch to [Pay as you go](https://firebase.google.com/pricing)
+- In order to the run the app , please switch to:
+- [Pay as you go](https://firebase.google.com/pricing)
 ---
 
 ### Steps
