@@ -150,7 +150,7 @@ Endpoint to create an inventory item
 | quantity | number | T | *none* | Inventory item quantity |
 
 
-### Sample request to update a custom form
+### Sample request to create an inventory item
 
 ```json
 {
@@ -216,7 +216,7 @@ Endpoint to update an inventory item
 | quantity | number | F | *none* | Inventory item quantity |
 
 
-### Sample request to update a custom form
+### Sample request to update an inventory item
 
 ```json
 {
