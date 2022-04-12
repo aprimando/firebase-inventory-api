@@ -11,6 +11,11 @@ A simple REST API using Firebase Cloud Functions with Express
 - [NPM 8.x.x](https://nodejs.org)
 - [Firebase](https://www.npmjs.com/package/firebase)
 
+---
+**NOTE**
+In order to the run the app , please switch to [Pay as you go](https://firebase.google.com/pricing)
+---
+
 ### Steps
 
 - Clone repository
@@ -82,7 +87,7 @@ Endpoint to get list of inventory items
 | Name | Type | Required | Default | Description |
 | -------- | -- | ----- | ---------- | ---------------- |
 | status | int | T | *none* | HTTP error code |
-| message | string | T | *none* | Response message |
+| message | string | T | *none* | HTTP response message |
 | errors | Array<string> | T | *none* | List of error messages |
 
 ### Sample error response
@@ -125,7 +130,7 @@ Endpoint to get an inventory item
 | Name | Type | Required | Default | Description |
 | -------- | -- | ----- | ---------- | ---------------- |
 | status | int | T | *none* | HTTP error code |
-| message | string | T | *none* | Response message |
+| message | string | T | *none* | HTTP response message |
 | errors | Array<string> | T | *none* | List of error messages |
 
 ### Sample error response
@@ -255,7 +260,7 @@ Endpoint to update an inventory item
 | Name | Type | Required | Default | Description |
 | -------- | -- | ----- | ---------- | ---------------- |
 | status | int | T | *none* | HTTP error code |
-| message | string | T | *none* | Response message |
+| message | string | T | *none* | HTTP response message |
 | errors | Array<string> | T | *none* | List of error messages |
 
 ### Sample error response
@@ -293,7 +298,7 @@ Endpoint to delete an inventory item
 | Name | Type | Required | Default | Description |
 | -------- | -- | ----- | ---------- | ---------------- |
 | status | int | T | *none* | HTTP error code |
-| message | string | T | *none* | Response message |
+| message | string | T | *none* | HTTP response message |
 | errors | Array<string> | T | *none* | List of error messages |
 
 ### Sample error response
